@@ -1,3 +1,2 @@
-[$HOME/.config/vcsh/repo.d/zsh.git]
+[$HOME/.config/vcsh/repo.d/dotfiles.git]
 checkout = vcsh clone git://github.com/CIRB/devbox-dotfiles.git dotfiles
-
