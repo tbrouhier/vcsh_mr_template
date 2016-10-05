@@ -1,0 +1,7 @@
+[$HOME/projects/cicd/salt/bos]
+checkout =
+    git clone ssh://git@stash.cirb.lan:7999/bos/salt-stack-bos.git bos
+    pushd $HOME/projects/cicd/salt/bos
+    git submodule update --init
+    popd
+skip = ([ "$1" = update ])
