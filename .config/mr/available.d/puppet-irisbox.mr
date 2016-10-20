@@ -1,0 +1,7 @@
+[$HOME/projects/cicd/puppet/irisbox]
+checkout =
+    git clone ssh://git@stash.cirb.lan:7999/irisbox/puppet-stack-irisbox.git irisbox
+    pushd $HOME/projects/cicd/puppet/irisbox
+    git submodule update --init
+    popd
+skip = ([ "$1" = update ])

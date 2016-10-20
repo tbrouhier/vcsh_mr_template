@@ -1,0 +1,7 @@
+[$HOME/projects/cicd/puppet/hms]
+checkout =
+    git clone ssh://git@stash.cirb.lan:7999/hms/puppet-stack-hms.git hms
+    pushd $HOME/projects/cicd/puppet/hms
+    git submodule update --init
+    popd
+skip = ([ "$1" = update ])
