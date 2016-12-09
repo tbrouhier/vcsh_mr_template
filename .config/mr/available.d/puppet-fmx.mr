@@ -1,0 +1,7 @@
+[$HOME/projects/cicd/puppet/fmx]
+checkout =
+    git clone ssh://git@stash.cirb.lan:7999/fmx/puppet-stack-fmx.git fmx
+    pushd $HOME/projects/cicd/puppet/fmx
+    git submodule update --init
+    popd
+skip = ([ "$1" = update ])
