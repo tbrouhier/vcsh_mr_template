@@ -48,3 +48,14 @@ tmp/
 *.log
 *errors*
 .Xdefaults
+.config/mr/config.d/
+.nixpkgs_ref
+.user_id
+.user_pwd
+.user_stack
+.zcompdump
+.zcompdump-nixos-5.2
+.zsh_custom/
+.zsh_history
+.zshenv
+.zshrc
