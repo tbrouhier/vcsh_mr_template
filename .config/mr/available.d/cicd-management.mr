@@ -1,0 +1,2 @@
+[$HOME/projects/cicd/management]
+checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/cicd-management.git management
