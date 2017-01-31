@@ -1,0 +1,8 @@
+[$HOME/projects/cicd/management/pulp]
+checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/pulp-management.git pulp
+
+[$HOME/projects/cicd/management/stash]
+checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/stash-management.git stash
+
+[$HOME/projects/cicd/management/puppet]
+checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/puppet-stack-management.git puppet

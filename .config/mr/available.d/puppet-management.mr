@@ -1,2 +1,0 @@
-[$HOME/projects/cicd/management/puppet]
-checkout = git clone ssh://git@stash.cirb.lan:7999/cicd/puppet-stack-management.git puppet
