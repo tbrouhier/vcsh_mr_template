@@ -1,1 +1,3 @@
-../available.d/dotfiles.vcsh
+[$HOME/.config/vcsh/repo.d/dotfiles.git]
+checkout = vcsh clone git://github.com/tbrouhier/devbox-dotfiles.git dotfiles
+push = vcsh dotfiles push git@github.com:tbrouhier/devbox-dotfiles.git
